@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_gold">#FFCA28</color>
+    <color name="accent_gold_dark">#FFC107</color>
+    <color name="accent_gold_light">#FFE082</color>
+    <color name="background_dark">#121212</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="border_light">#EEEEEE</color>
+    <color name="card_shadow">#E0E0E0</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    <color name="primary_green">#66BB6A</color>
+    <color name="primary_green_dark">#4CAF50</color>
+    <color name="primary_green_light">#A5D6A7</color>
+    <color name="success">#4CAF50</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_gray">#F5F5F5</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant_dark">#2C2C2C</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_hint_dark">#666666</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_secondary_dark">#B3B3B3</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <style name="CardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/background_white</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/primary_green_light</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipCornerRadius">16dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="GoalButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent_gold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="PrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="SecondaryButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_green</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="Theme.StudyOn" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_gold</item>
+        <item name="colorSecondaryVariant">@color/accent_gold_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+    <style name="Theme.StudyOn.Splash" parent="Theme.StudyOn">
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

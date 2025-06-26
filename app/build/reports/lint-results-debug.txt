@@ -1,0 +1,728 @@
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:15: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\SplashActivity.kt:11: Warning: The application should not provide its own launch screen [CustomSplashScreen]
+class SplashActivity : AppCompatActivity() {
+      ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "CustomSplashScreen":
+   Starting in Android 12 (API 31+), the application's Launch Screen is
+   provided by the system and the application should not create its own,
+   otherwise the user will see two splashscreens. Please check the
+   SplashScreen class to check how the Splash Screen can be controlled and
+   customized.
+
+   https://developer.android.com/guide/topics/ui/splash-screen
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:118: Warning: Use SwitchCompat from AppCompat or SwitchMaterial from Material library [UseSwitchCompatOrMaterialXml from androidx.appcompat]
+                    <Switch
+                    ^
+
+   Explanation for issues of type "UseSwitchCompatOrMaterialXml":
+   Use SwitchCompat from AppCompat or SwitchMaterial from Material library
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:45: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.16.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:46: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:47: Warning: A newer version of com.google.android.material:material than 1.11.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.11.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:48: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:51: Warning: A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.6 is available: 2.9.0 [GradleDependency]
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.6'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:52: Warning: A newer version of androidx.navigation:navigation-ui-ktx than 2.7.6 is available: 2.9.0 [GradleDependency]
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.6'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:55: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.9.1 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:56: Warning: A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.9.1 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:57: Warning: A newer version of androidx.activity:activity-ktx than 1.8.2 is available: 1.10.1 [GradleDependency]
+    implementation 'androidx.activity:activity-ktx:1.8.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:58: Warning: A newer version of androidx.fragment:fragment-ktx than 1.6.2 is available: 1.8.8 [GradleDependency]
+    implementation 'androidx.fragment:fragment-ktx:1.6.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:61: Warning: A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2 [GradleDependency]
+    implementation 'androidx.room:room-runtime:2.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:62: Warning: A newer version of androidx.room:room-ktx than 2.6.1 is available: 2.7.2 [GradleDependency]
+    implementation 'androidx.room:room-ktx:2.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:63: Warning: A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2 [GradleDependency]
+    kapt 'androidx.room:room-compiler:2.6.1'
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:66: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:72: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:73: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:85: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableStart="@drawable/ic_notification"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:87: Warning: Use app:drawableTint instead of android:drawableTint [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableTint="@color/primary_green" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:150: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableStart="@drawable/ic_theme"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:152: Warning: Use app:drawableTint instead of android:drawableTint [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableTint="@color/primary_green" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:209: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableStart="@drawable/ic_data"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:211: Warning: Use app:drawableTint instead of android:drawableTint [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableTint="@color/primary_green" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:285: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableStart="@drawable/ic_info"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:287: Warning: Use app:drawableTint instead of android:drawableTint [UseCompatTextViewDrawableXml from androidx.appcompat]
+                    android:drawableTint="@color/primary_green" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_goal.xml:66: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+            android:drawableStart="@drawable/ic_calendar"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_goal.xml:80: Warning: Use app:drawableStartCompat instead of android:drawableStart [UseCompatTextViewDrawableXml from androidx.appcompat]
+            android:drawableStart="@drawable/ic_create"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompatTextViewDrawableXml":
+   TextView uses android: compound drawable attributes instead of app: ones
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\themes.xml:13: Warning: Unnecessary; SDK_INT is always >= 21 [ObsoleteSdkInt]
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+                                            ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:175: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+            <LinearLayout
+             ~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompoundDrawables":
+   A LinearLayout which contains an ImageView and a TextView can be more
+   efficiently handled as a compound drawable (a single TextView, using the
+   drawableTop, drawableLeft, drawableRight and/or drawableBottom attributes
+   to draw one or more images adjacent to the text).
+
+   If the two widgets are offset from each other with margins, this can be
+   replaced with a drawablePadding attribute.
+
+   There's a lint quickfix to perform this conversion in the Eclipse plugin.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\ic_settings.xml:8: Warning: Very long vector path (904 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector. [VectorPath]
+      android:pathData="M19.14,12.94c0.04,-0.3 0.06,-0.61 0.06,-0.94c0,-0.32 -0.02,-0.64 -0.07,-0.94l2.03,-1.58c0.18,-0.14 0.23,-0.41 0.12,-0.61l-1.92,-3.32c-0.12,-0.22 -0.37,-0.29 -0.59,-0.22l-2.39,0.96c-0.5,-0.38 -1.03,-0.7 -1.62,-0.94L14.4,2.81c-0.04,-0.24 -0.24,-0.41 -0.48,-0.41h-3.84c-0.24,0 -0.43,0.17 -0.47,0.41L9.25,5.35C8.66,5.59 8.12,5.92 7.63,6.29L5.24,5.33c-0.22,-0.08 -0.47,0 -0.59,0.22L2.74,8.87C2.62,9.08 2.66,9.34 2.86,9.48l2.03,1.58C4.84,11.36 4.8,11.69 4.8,12s0.02,0.64 0.07,0.94l-2.03,1.58c-0.18,0.14 -0.23,0.41 -0.12,0.61l1.92,3.32c0.12,0.22 0.37,0.29 0.59,0.22l2.39,-0.96c0.5,0.38 1.03,0.7 1.62,0.94l0.36,2.54c0.05,0.24 0.24,0.41 0.48,0.41h3.84c0.24,0 0.44,-0.17 0.47,-0.41l0.36,-2.54c0.59,-0.24 1.13,-0.56 1.62,-0.94l2.39,0.96c0.22,0.08 0.47,0 0.59,-0.22l1.92,-3.32c0.12,-0.22 0.07,-0.47 -0.12,-0.61L19.14,12.94zM12,15.6c-1.98,0 -3.6,-1.62 -3.6,-3.6s1.62,-3.6 3.6,-3.6s3.6,1.62 3.6,3.6S13.98,15.6 12,15.6z"/>
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "VectorPath":
+   Using long vector paths is bad for performance. There are several ways to
+   make the pathData shorter:
+   * Using less precision
+   * Removing some minor details
+   * Using the Android Studio vector conversion tool
+   * Rasterizing the image (converting to PNG)
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\build.gradle:63: Warning: This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp [KaptUsageInsteadOfKsp]
+    kapt 'androidx.room:room-compiler:2.6.1'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "KaptUsageInsteadOfKsp":
+   KSP is a more efficient replacement for kapt. For libraries that support
+   both, KSP should be used to improve build times.
+
+   https://developer.android.com/studio/build/migrate-to-ksp
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\activity_main.xml:7: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme_StudyOn) [Overdraw]
+    android:background="@color/background_light"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\activity_splash.xml:6: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="@color/background_light">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:7: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="@color/background_light">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:8: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="@color/background_light"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:7: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="@color/background_light">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:7: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="@color/background_light">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:7: Warning: Possible overdraw: Root element paints background @color/background_light with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="@color/background_light">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_todo.xml:8: Warning: Possible overdraw: Root element paints background ?android:attr/selectableItemBackground with a theme that also paints a background (inferred theme is @style/Theme.StudyOn) [Overdraw]
+    android:background="?android:attr/selectableItemBackground">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\xml\backup_rules.xml:2: Warning: The resource R.xml.backup_rules appears to be unused [UnusedResources]
+<full-backup-content>
+^
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\book_stack.png: Warning: The resource R.drawable.book_stack appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\celebration_confetti.png: Warning: The resource R.drawable.celebration_confetti appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:11: Warning: The resource R.color.accent_gold_light appears to be unused [UnusedResources]
+    <color name="accent_gold_light">#FFD54F</color>
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:17: Warning: The resource R.color.text_white appears to be unused [UnusedResources]
+    <color name="text_white">#FFFFFF</color>
+           ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:23: Warning: The resource R.color.surface_gray appears to be unused [UnusedResources]
+    <color name="surface_gray">#F5F5F5</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:26: Warning: The resource R.color.success appears to be unused [UnusedResources]
+    <color name="success">#4CAF50</color>
+           ~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:27: Warning: The resource R.color.warning appears to be unused [UnusedResources]
+    <color name="warning">#FF9800</color>
+           ~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:29: Warning: The resource R.color.info appears to be unused [UnusedResources]
+    <color name="info">#2196F3</color>
+           ~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:32: Warning: The resource R.color.divider appears to be unused [UnusedResources]
+    <color name="divider">#E0E0E0</color>
+           ~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:33: Warning: The resource R.color.border_light appears to be unused [UnusedResources]
+    <color name="border_light">#EEEEEE</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:36: Warning: The resource R.color.transparent appears to be unused [UnusedResources]
+    <color name="transparent">#00000000</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:37: Warning: The resource R.color.black_overlay appears to be unused [UnusedResources]
+    <color name="black_overlay">#66000000</color>
+           ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\colors.xml:44: Warning: The resource R.color.card_shadow appears to be unused [UnusedResources]
+    <color name="card_shadow">#E0E0E0</color>
+           ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\xml\data_extraction_rules.xml:2: Warning: The resource R.xml.data_extraction_rules appears to be unused [UnusedResources]
+<data-extraction-rules>
+^
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\dday_badge_bg.png: Warning: The resource R.drawable.dday_badge_bg appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\empty_statistics.png: Warning: The resource R.drawable.empty_statistics appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\focus_mode_bg.png: Warning: The resource R.drawable.focus_mode_bg appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\goal_achievement.png: Warning: The resource R.drawable.goal_achievement appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\growth_graph_bg.png: Warning: The resource R.drawable.growth_graph_bg appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\home_background.png: Warning: The resource R.drawable.home_background appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\icon.png: Warning: The resource R.drawable.icon appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\settings_gear.png: Warning: The resource R.drawable.settings_gear appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\statistics_chart.png: Warning: The resource R.drawable.statistics_chart appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\study_character.png: Warning: The resource R.drawable.study_character appears to be unused [UnusedResources]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\values\themes.xml:62: Warning: The resource R.style.ChipStyle appears to be unused [UnusedResources]
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+           ~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\todo_check_icon.png: Warning: The resource R.drawable.todo_check_icon appears to be unused [UnusedResources]
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:28: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+                <LinearLayout
+                 ~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-hdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-mdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-xhdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-xxhdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://d.android.com/r/studio-ui/designer/material/iconography) your
+   launcher icons should "use a distinct silhouette", a "three-dimensional,
+   front view, with a slight perspective as if viewed from above, so that
+   users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png: Warning: The image ic_launcher.png varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpiic_launcher.png: 683x683 dp (1024x1024 px), mipmap-mdpiic_launcher.png: 1024x1024 dp (1024x1024 px), mipmap-xhdpiic_launcher.png: 512x512 dp (1024x1024 px), mipmap-xxhdpiic_launcher.png: 341x341 dp (1024x1024 px), mipmap-xxxhdpiic_launcher.png: 256x256 dp (1024x1024 px) [IconDipSize]
+
+   Explanation for issues of type "IconDipSize":
+   Checks the all icons which are provided in multiple densities, all compute
+   to roughly the same density-independent pixel (dip) size. This catches
+   errors where images are either placed in the wrong folder, or icons are
+   changed to new sizes but some folders are forgotten.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_100hours_total.png: Warning: Found bitmap drawable res/drawable/badge_100hours_total.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_10hours_total.png: Warning: Found bitmap drawable res/drawable/badge_10hours_total.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_30days_streak.png: Warning: Found bitmap drawable res/drawable/badge_30days_streak.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_3days_streak.png: Warning: Found bitmap drawable res/drawable/badge_3days_streak.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_50hours_total.png: Warning: Found bitmap drawable res/drawable/badge_50hours_total.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_7days_streak.png: Warning: Found bitmap drawable res/drawable/badge_7days_streak.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\badge_first_study.png: Warning: Found bitmap drawable res/drawable/badge_first_study.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\book_stack.png: Warning: Found bitmap drawable res/drawable/book_stack.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\celebration_confetti.png: Warning: Found bitmap drawable res/drawable/celebration_confetti.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\dday_badge_bg.png: Warning: Found bitmap drawable res/drawable/dday_badge_bg.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\empty_awards.png: Warning: Found bitmap drawable res/drawable/empty_awards.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\empty_goals.png: Warning: Found bitmap drawable res/drawable/empty_goals.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\empty_statistics.png: Warning: Found bitmap drawable res/drawable/empty_statistics.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\focus_mode_bg.png: Warning: Found bitmap drawable res/drawable/focus_mode_bg.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\goal_achievement.png: Warning: Found bitmap drawable res/drawable/goal_achievement.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\growth_graph_bg.png: Warning: Found bitmap drawable res/drawable/growth_graph_bg.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\home_background.png: Warning: Found bitmap drawable res/drawable/home_background.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\icon.png: Warning: Found bitmap drawable res/drawable/icon.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\settings_gear.png: Warning: Found bitmap drawable res/drawable/settings_gear.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\statistics_chart.png: Warning: Found bitmap drawable res/drawable/statistics_chart.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\study_character.png: Warning: Found bitmap drawable res/drawable/study_character.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\study_time_icon.png: Warning: Found bitmap drawable res/drawable/study_time_icon.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\study_timer.png: Warning: Found bitmap drawable res/drawable/study_timer.png in densityless folder [IconLocation]
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\drawable\todo_check_icon.png: Warning: Found bitmap drawable res/drawable/todo_check_icon.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png: Warning: The following unrelated icon files have identical contents: icon.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png [IconDuplicates]
+
+   Explanation for issues of type "IconDuplicates":
+   If an icon is repeated under different names, you can consolidate and just
+   use one of the icons and delete the others to make your application
+   smaller. However, duplicated icons usually are not intentional and can
+   sometimes point to icons that were accidentally overwritten or accidentally
+   not updated.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_award.xml:55: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+            android:textSize="10sp"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_todo.xml:55: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+        android:textSize="10sp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SmallSp":
+   Avoid using sizes smaller than 11sp.
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\activity_splash.xml:8: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:25: Warning: Missing contentDescription attribute on image [ContentDescription]
+                            <ImageView
+                             ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:81: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:29: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:84: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:89: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:182: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:29: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:173: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:29: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:29: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:173: Warning: Missing contentDescription attribute on image [ContentDescription]
+                    <ImageView
+                     ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:215: Warning: Missing contentDescription attribute on image [ContentDescription]
+                    <ImageView
+                     ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:256: Warning: Missing contentDescription attribute on image [ContentDescription]
+                    <ImageView
+                     ~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_award.xml:19: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\ui\adapter\AwardAdapter.kt:43: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                binding.textAwardDate.text = "획득일: ${award.earnedAt}"
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\ui\fragment\AwardsFragment.kt:64: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            binding.textAwardProgress.text = "획득한 배지: $count / $totalCount"
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\ui\adapter\GoalAdapter.kt:46: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            binding.textGoalDeadline.text = "마감: $deadlineFormatted"
+                                            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\ui\adapter\GoalAdapter.kt:50: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            binding.textGoalCreatedAt.text = "생성: $createdAtFormatted"
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\ui\fragment\StatisticsFragment.kt:103: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            binding.textStudyStreak.text = "${streak}일"
+                                           ~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\java\com\studyon\app\ui\adapter\TodoAdapter.kt:29: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                textTodoDueDate.text = "마감: ${todo.dueDate}"
+                                       ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\activity_splash.xml:24: Warning: Hardcoded string "StudyOn", should use @string resource [HardcodedText]
+        android:text="StudyOn"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\activity_splash.xml:37: Warning: Hardcoded string "나만의 공부 플래너", should use @string resource [HardcodedText]
+        android:text="나만의 공부 플래너"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\menu\bottom_nav_menu.xml:7: Warning: Hardcoded string "홈", should use @string resource [HardcodedText]
+        android:title="홈" />
+        ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\menu\bottom_nav_menu.xml:12: Warning: Hardcoded string "목표", should use @string resource [HardcodedText]
+        android:title="목표" />
+        ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\menu\bottom_nav_menu.xml:17: Warning: Hardcoded string "기록", should use @string resource [HardcodedText]
+        android:title="기록" />
+        ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\menu\bottom_nav_menu.xml:22: Warning: Hardcoded string "통계", should use @string resource [HardcodedText]
+        android:title="통계" />
+        ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\menu\bottom_nav_menu.xml:27: Warning: Hardcoded string "어워드", should use @string resource [HardcodedText]
+        android:title="어워드" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:31: Warning: Hardcoded string "새로운 목표 추가", should use @string resource [HardcodedText]
+                    android:text="새로운 목표 추가"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:40: Warning: Hardcoded string "달성하고 싶은 목표를 설정해보세요", should use @string resource [HardcodedText]
+                    android:text="달성하고 싶은 목표를 설정해보세요"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:66: Warning: Hardcoded string "목표명", should use @string resource [HardcodedText]
+                    android:hint="목표명"
+                    ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:84: Warning: Hardcoded string "태그 (예: 자격증, 어학 등)", should use @string resource [HardcodedText]
+                    android:hint="태그 (예: 자격증, 어학 등)"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:101: Warning: Hardcoded string "마감일", should use @string resource [HardcodedText]
+                    android:text="마감일"
+                    ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:118: Warning: Hardcoded string "날짜 선택", should use @string resource [HardcodedText]
+                        android:text="날짜 선택"
+                        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:127: Warning: Hardcoded string "날짜를 선택해주세요", should use @string resource [HardcodedText]
+                        android:text="날짜를 선택해주세요"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:150: Warning: Hardcoded string "취소", should use @string resource [HardcodedText]
+                android:text="취소" />
+                ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_add_goal.xml:159: Warning: Hardcoded string "저장", should use @string resource [HardcodedText]
+                android:text="저장" />
+                ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:41: Warning: Hardcoded string "나의 배지", should use @string resource [HardcodedText]
+                    android:text="나의 배지"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:51: Warning: Hardcoded string "획득한 배지: 0 / 0", should use @string resource [HardcodedText]
+                    android:text="획득한 배지: 0 / 0"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:90: Warning: Hardcoded string "아직 배지가 없어요", should use @string resource [HardcodedText]
+            android:text="아직 배지가 없어요"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_awards.xml:99: Warning: Hardcoded string "공부를 시작해서 첫 배지를 획득해보세요!", should use @string resource [HardcodedText]
+            android:text="공부를 시작해서 첫 배지를 획득해보세요!"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:45: Warning: Hardcoded string "나의 목표", should use @string resource [HardcodedText]
+                        android:text="나의 목표"
+                        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:54: Warning: Hardcoded string "목표를 설정하고 달성해보세요", should use @string resource [HardcodedText]
+                        android:text="목표를 설정하고 달성해보세요"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:93: Warning: Hardcoded string "아직 목표가 없어요", should use @string resource [HardcodedText]
+                android:text="아직 목표가 없어요"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:102: Warning: Hardcoded string "첫 번째 목표를 추가해보세요!", should use @string resource [HardcodedText]
+                android:text="첫 번째 목표를 추가해보세요!"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_goals.xml:126: Warning: Hardcoded string "목표 추가", should use @string resource [HardcodedText]
+        android:contentDescription="목표 추가"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:67: Warning: Hardcoded string "설정", should use @string resource [HardcodedText]
+                        android:contentDescription="설정" />
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:104: Warning: Hardcoded string "오늘의 공부 시간", should use @string resource [HardcodedText]
+                        android:text="오늘의 공부 시간"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:140: Warning: Hardcoded string "오늘의 루틴", should use @string resource [HardcodedText]
+                    android:text="오늘의 루틴"
+                    ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:157: Warning: Hardcoded string "아직 루틴이 없어요.n목표를 추가해보세요!", should use @string resource [HardcodedText]
+                    android:text="아직 루틴이 없어요.\n목표를 추가해보세요!"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:191: Warning: Hardcoded string "오늘도 열심히 공부해요! 💪", should use @string resource [HardcodedText]
+                    android:text="오늘도 열심히 공부해요! 💪"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:214: Warning: Hardcoded string "루틴 시작", should use @string resource [HardcodedText]
+                android:text="루틴 시작"
+                ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_home.xml:224: Warning: Hardcoded string "목표 추가", should use @string resource [HardcodedText]
+                android:text="목표 추가"
+                ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:45: Warning: Hardcoded string "루틴 기록", should use @string resource [HardcodedText]
+                        android:text="루틴 기록"
+                        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:54: Warning: Hardcoded string "오늘의 공부 시간을 기록해보세요", should use @string resource [HardcodedText]
+                        android:text="오늘의 공부 시간을 기록해보세요"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:80: Warning: Hardcoded string "기본 정보", should use @string resource [HardcodedText]
+                    android:text="기본 정보"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:97: Warning: Hardcoded string "날짜:", should use @string resource [HardcodedText]
+                        android:text="날짜:"
+                        ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:107: Warning: Hardcoded string "날짜 선택", should use @string resource [HardcodedText]
+                        android:text="날짜 선택"
+                        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:132: Warning: Hardcoded string "목표:", should use @string resource [HardcodedText]
+                        android:text="목표:"
+                        ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:166: Warning: Hardcoded string "공부 시간", should use @string resource [HardcodedText]
+                    android:text="공부 시간"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:184: Warning: Hardcoded string "0분", should use @string resource [HardcodedText]
+                    android:text="0분"
+                    ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:201: Warning: Hardcoded string "시작", should use @string resource [HardcodedText]
+                        android:text="시작"
+                        ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:209: Warning: Hardcoded string "리셋", should use @string resource [HardcodedText]
+                        android:text="리셋"
+                        ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:220: Warning: Hardcoded string "직접 입력", should use @string resource [HardcodedText]
+                    android:text="직접 입력"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:244: Warning: Hardcoded string "공부 메모", should use @string resource [HardcodedText]
+                    android:text="공부 메모"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:253: Warning: Hardcoded string "오늘 공부한 내용을 간단히 메모해보세요", should use @string resource [HardcodedText]
+                    android:hint="오늘 공부한 내용을 간단히 메모해보세요"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_routine.xml:277: Warning: Hardcoded string "루틴 기록 저장", should use @string resource [HardcodedText]
+            android:text="루틴 기록 저장"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:45: Warning: Hardcoded string "설정", should use @string resource [HardcodedText]
+                        android:text="설정"
+                        ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:54: Warning: Hardcoded string "앱 설정을 관리하세요", should use @string resource [HardcodedText]
+                        android:text="앱 설정을 관리하세요"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:80: Warning: Hardcoded string "알림 설정", should use @string resource [HardcodedText]
+                    android:text="알림 설정"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:104: Warning: Hardcoded string "알림 받기", should use @string resource [HardcodedText]
+                            android:text="알림 받기"
+                            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:112: Warning: Hardcoded string "공부 리마인더 알림을 받습니다", should use @string resource [HardcodedText]
+                            android:text="공부 리마인더 알림을 받습니다"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:145: Warning: Hardcoded string "테마 설정", should use @string resource [HardcodedText]
+                    android:text="테마 설정"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:163: Warning: Hardcoded string "라이트 모드", should use @string resource [HardcodedText]
+                        android:text="라이트 모드"
+                        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:171: Warning: Hardcoded string "다크 모드", should use @string resource [HardcodedText]
+                        android:text="다크 모드"
+                        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:179: Warning: Hardcoded string "시스템 설정 따르기", should use @string resource [HardcodedText]
+                        android:text="시스템 설정 따르기"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:204: Warning: Hardcoded string "데이터 관리", should use @string resource [HardcodedText]
+                    android:text="데이터 관리"
+                    ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:217: Warning: Hardcoded string "백업 기록 없음", should use @string resource [HardcodedText]
+                    android:text="백업 기록 없음"
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:234: Warning: Hardcoded string "내보내기", should use @string resource [HardcodedText]
+                        android:text="내보내기"
+                        ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:245: Warning: Hardcoded string "가져오기", should use @string resource [HardcodedText]
+                        android:text="가져오기"
+                        ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:255: Warning: Hardcoded string "초기화", should use @string resource [HardcodedText]
+                        android:text="초기화"
+                        ~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:280: Warning: Hardcoded string "정보", should use @string resource [HardcodedText]
+                    android:text="정보"
+                    ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:301: Warning: Hardcoded string "앱 정보", should use @string resource [HardcodedText]
+                        android:text="앱 정보"
+                        ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_settings.xml:311: Warning: Hardcoded string "앱 공유", should use @string resource [HardcodedText]
+                        android:text="앱 공유"
+                        ~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:45: Warning: Hardcoded string "공부 통계", should use @string resource [HardcodedText]
+                        android:text="공부 통계"
+                        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:54: Warning: Hardcoded string "나의 공부 패턴을 분석해보세요", should use @string resource [HardcodedText]
+                        android:text="나의 공부 패턴을 분석해보세요"
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:80: Warning: Hardcoded string "기간 선택", should use @string resource [HardcodedText]
+                    android:text="기간 선택"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:95: Warning: Hardcoded string "주간", should use @string resource [HardcodedText]
+                        android:text="주간"
+                        ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:103: Warning: Hardcoded string "월간", should use @string resource [HardcodedText]
+                        android:text="월간"
+                        ~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:128: Warning: Hardcoded string "공부 시간 추이", should use @string resource [HardcodedText]
+                    android:text="공부 시간 추이"
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:159: Warning: Hardcoded string "통계 요약", should use @string resource [HardcodedText]
+                    android:text="통계 요약"
+                    ~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:189: Warning: Hardcoded string "총 공부 시간", should use @string resource [HardcodedText]
+                            android:text="총 공부 시간"
+                            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:231: Warning: Hardcoded string "일평균 공부 시간", should use @string resource [HardcodedText]
+                            android:text="일평균 공부 시간"
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\fragment_statistics.xml:272: Warning: Hardcoded string "현재 연속 공부", should use @string resource [HardcodedText]
+                            android:text="현재 연속 공부"
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\BW-PC\Documents\JM\private\github\StudyOn\app\src\main\res\layout\item_goal.xml:95: Warning: Hardcoded string "삭제", should use @string resource [HardcodedText]
+            android:contentDescription="삭제"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 197 warnings

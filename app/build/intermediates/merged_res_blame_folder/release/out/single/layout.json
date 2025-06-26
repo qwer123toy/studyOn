@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.studyon.app-mergeReleaseResources-55:/layout/fragment_settings.xml",
+        "source": "com.studyon.app-main-57:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_goals.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_goals.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\item_todo.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\item_todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_routine.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_awards.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_awards.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\item_goal.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\item_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\fragment_add_goal.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\fragment_add_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-mergeReleaseResources-55:\\layout\\item_award.xml",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-57:\\layout\\item_award.xml"
+    }
+]

@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_awards.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_awards.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_settings_gear.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\settings_gear.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_todo_check_icon.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\todo_check_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_home_background.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\home_background.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_theme.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_study_character.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\study_character.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_bg_dday.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\bg_dday.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_30days_streak.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_30days_streak.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_item_todo.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\item_todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_goals.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_goals.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_first_study.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_first_study.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_add_goal.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_add_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_statistics_chart.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\statistics_chart.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_3days_streak.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_3days_streak.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable-night_simple_stats_bg.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable-night\\simple_stats_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_item_goal.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\item_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_routine.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\color_bottom_nav_color_selector.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\color\\bottom_nav_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_routine.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_routine.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_dday_badge_bg.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\dday_badge_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_create.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_data.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_item_award.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\item_award.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_empty_goals.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\empty_goals.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_10hours_total.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_10hours_total.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_growth_graph_bg.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\growth_graph_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_awards.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_awards.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_goals.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_goals.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_statistics.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_logo.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_focus_mode_bg.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\focus_mode_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_celebration_confetti.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\celebration_confetti.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_book_stack.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\book_stack.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_simple_home_bg.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\simple_home_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_fragment_statistics.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\fragment_statistics.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_empty_awards.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\empty_awards.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_study_timer.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\study_timer.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_simple_stats_bg.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\simple_stats_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\bg_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_simple_study_icon.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\simple_study_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_goal_achievement.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\goal_achievement.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_study_time_icon.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\study_time_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_empty_statistics.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\empty_statistics.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_100hours_total.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_100hours_total.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable-night_simple_home_bg.xml.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable-night\\simple_home_bg.xml"
+    },
+    {
+        "merged": "com.studyon.app-merged_res-56:/layout_fragment_settings.xml.flat",
+        "source": "com.studyon.app-main-58:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_50hours_total.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_50hours_total.png"
+    },
+    {
+        "merged": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-merged_res-56:\\drawable_badge_7days_streak.png.flat",
+        "source": "C:\\Users\\BW-PC\\.gradle\\daemon\\8.12\\com.studyon.app-main-58:\\drawable\\badge_7days_streak.png"
+    }
+]

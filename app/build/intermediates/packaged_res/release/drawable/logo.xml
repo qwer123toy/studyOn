@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- 배경 원 -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M64,64m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+    
+    <!-- 책 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,45 L35,85 L75,85 L75,45 Z M40,50 L70,50 L70,80 L40,80 Z" />
+    
+    <!-- 책 페이지 -->
+    <path
+        android:fillColor="#F5F5F5"
+        android:pathData="M42,52 L68,52 L68,78 L42,78 Z" />
+    
+    <!-- 책 라인들 -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M45,58 L65,58 M45,62 L65,62 M45,66 L65,66 M45,70 L65,70"
+        android:strokeWidth="1"
+        android:strokeColor="#E0E0E0" />
+    
+    <!-- 연필 -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M75,35 L85,45 L80,50 L70,40 Z" />
+    
+    <!-- 연필 끝 -->
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M83,37 L87,41 L85,43 L81,39 Z" />
+    
+    <!-- 연필 심 -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M69,41 L71,43 L69,45 L67,43 Z" />
+    
+    <!-- S -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,90 Q45,90 45,95 Q45,100 50,100 L55,100 Q60,100 60,95 Q60,92 55,92 L50,92 Q45,92 45,87 Q45,82 50,82 L55,82"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:fillType="nonZero" />
+
+</vector> 

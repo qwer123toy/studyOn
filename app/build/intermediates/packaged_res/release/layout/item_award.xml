@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    style="@style/CardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <!-- 배지 아이콘 -->
+        <ImageView
+            android:id="@+id/image_award_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_awards"
+            app:tint="@color/accent_gold"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 배지 제목 -->
+        <TextView
+            android:id="@+id/text_award_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            tools:text="첫 공부 배지" />
+
+        <!-- 배지 설명 -->
+        <TextView
+            android:id="@+id/text_award_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            tools:text="첫 공부 기록을 완료하세요" />
+
+        <!-- 획득일 -->
+        <TextView
+            android:id="@+id/text_award_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/text_hint"
+            android:textAlignment="center"
+            tools:text="획득일: 2024-01-15" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView> 

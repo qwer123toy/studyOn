@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- D-Day Badge -->
+        <TextView
+            android:id="@+id/text_d_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dday"
+            android:padding="8dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="D-30" />
+
+        <!-- 목표 제목 -->
+        <TextView
+            android:id="@+id/text_goal_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/text_d_day"
+            tools:text="정보처리기사 자격증 취득" />
+
+        <!-- 태그 -->
+        <TextView
+            android:id="@+id/text_goal_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_chip"
+            android:padding="6dp"
+            android:textSize="12sp"
+            android:textColor="@color/primary_green"
+            app:layout_constraintTop_toBottomOf="@id/text_goal_title"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="자격증" />
+
+        <!-- 마감일 -->
+        <TextView
+            android:id="@+id/text_goal_deadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="8dp"
+            app:layout_constraintTop_toBottomOf="@id/text_goal_tag"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="마감: 03월 15일" />
+
+        <!-- 생성일 -->
+        <TextView
+            android:id="@+id/text_goal_created_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/text_hint"
+            android:drawableStart="@drawable/ic_create"
+            android:drawablePadding="8dp"
+            app:layout_constraintTop_toBottomOf="@id/text_goal_deadline"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="생성: 01월 15일" />
+
+        <!-- 삭제 버튼 -->
+        <ImageButton
+            android:id="@+id/button_delete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/error"
+            android:contentDescription="삭제"
+            app:layout_constraintTop_toBottomOf="@id/text_d_day"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+ 

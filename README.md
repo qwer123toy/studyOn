@@ -118,6 +118,7 @@ app/src/main/java/com/studyon/app/
 
 이 프로젝트는 개인 학습 목적으로 개발되었습니다.
 
-## 개발자
+##  개발자
 
-개발 과정에서 Figma를 활용한 UI/UX 설계와 Cursor AI의 도움을 받아 구현되었습니다. 
+**이지맨**
+- GitHub : [qwer123toy](https://github.com/qwer123toy)
